@@ -27,6 +27,8 @@ const { author } = details;
 // console.log(anotherSong);
 // console.log(author);
 
- 
+ const [, , trunks = 'Not Found']: string[] = ['Vegeta','Goku']
+
+console.log(trunks);
 
 export {};

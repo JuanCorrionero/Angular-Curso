@@ -4,6 +4,7 @@ export class Person {
 
   constructor /* Se puede declarar las propiedades en el constructor */(
     public name: string = 'Juani',
+    public lastName: string,
     private address: string = 'San Fernando'
   ) {
     this.name = name;
@@ -22,7 +23,7 @@ export class Hero {
   }
 }
 
-const tony = new Person('Tony', 'New York');
+const tony = new Person('Tony', 'Stark' ,'New York');
 
 const ironman = new Hero('Iron Man', 45, 'Tony', tony);
 
